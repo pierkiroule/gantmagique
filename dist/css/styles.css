@@ -11315,6 +11315,14 @@ body {
   border-radius: 10rem;
 }
 
+.video-responsive { 
+  overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+}
+
+.video-responsive iframe {
+  left:0; top:0; height:100%; width:100%; position:absolute;
+}
+
 hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
