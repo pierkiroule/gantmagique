@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #5eaadd;
+  --bs-primary: #00b0e6;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0a7e96;
@@ -3822,7 +3822,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #3aaaf4;
+  background-color: #0f95ee;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -11400,7 +11400,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background:#066173;
+  background:var(--bs-primary-rgb);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
