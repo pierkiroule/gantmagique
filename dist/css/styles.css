@@ -5562,7 +5562,7 @@ textarea.form-control-lg {
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 0.1rem 0.1rem;
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
@@ -11299,7 +11299,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .text-white-75 {
@@ -11398,8 +11398,8 @@ hr.divider-light {
 }
 
 header.masthead {
-  padding-top: 5rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  padding-top: 0.1rem;
+  padding-bottom: calc(0.1rem - 0.1rem);
   background:var(--bs-primary-rgb);
   background-position: center;
   background-repeat: no-repeat;
@@ -11411,9 +11411,9 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
+    height: 1vh;
+    min-height: 30rem;
+    padding-top: 1.5rem;
     padding-bottom: 0;
   }
   header.masthead p {
@@ -11425,7 +11425,7 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
