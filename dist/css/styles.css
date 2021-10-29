@@ -102,7 +102,7 @@ hr:not([size]) {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  margin-top: 0;
+  margin-top: 1;
   margin-bottom: 0.5rem;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
@@ -168,7 +168,7 @@ abbr[data-bs-original-title] {
 }
 
 address {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-style: normal;
   line-height: inherit;
 }
@@ -472,7 +472,7 @@ output {
 }
 
 iframe {
-  border: 0;
+  border: 1;
 }
 
 summary {
@@ -7941,8 +7941,8 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top:2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .rounded-pill {
@@ -11318,7 +11318,7 @@ body {
 }
 
 .video-responsive { 
-  overflow:hidden; padding-bottom:56.25%; position:relative; height:0;
+  overflow:hidden; padding-bottom:58.25%; position:relative; height:0;
 }
 
 .video-responsive iframe {
@@ -11344,15 +11344,15 @@ hr.divider-light {
 }
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 800;
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  font-size: 0.9rem;
-  padding: 0.75rem 0;
+  font-size: 1rem;
+  padding: 1.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #f4623a;
@@ -11400,8 +11400,8 @@ hr.divider-light {
 }
 
 header.masthead {
-  padding-top: 0.1rem;
-  padding-bottom: calc(0.1rem - 0.1rem);
+  padding-top: 0.2rem;
+  padding-bottom: calc(1rem - 1rem);
   background:var(--bs-primary-rgb);
   background-position: center;
   background-repeat: no-repeat;
@@ -11414,7 +11414,7 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 1vh;
-    min-height: 30rem;
+    min-height: 25rem;
     padding-top: 1.5rem;
     padding-bottom: 0;
   }
