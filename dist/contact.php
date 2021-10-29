@@ -4,23 +4,23 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Demo contact form <exemple@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'p.garnier@citi44.com';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Nnouveau message du site GMV';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Formulaire envoyé. Merci. A bientôt !';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = ' erreur. impossible de valider le formulaire. Merci de réessayer plus tard';
 
 /*
  *  LET'S DO THE SENDING
@@ -32,7 +32,7 @@ error_reporting(E_ALL & ~E_NOTICE);
 try
 {
 
-    if(count($_POST) == 0) throw new \Exception('Form is empty');
+    if(count($_POST) == 0) throw new \Exception('Formulaire est vide');
             
     $emailText = "You have a new message from your contact form\n=============================\n";
 
